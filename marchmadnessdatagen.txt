@@ -1,0 +1,10 @@
+genr wpos = wfga-wor+wto+.475*wfta
+genr lpos=lfga-lor+lto+.475*lfta
+genr wtotr=wor+wdr
+genr ltotr=lor+ldr
+genr wtotr=wor+wdr
+genr ltotr=lor+ldr
+genr gtotr=wtotr+ltotr
+genr woreff=wor/wtotr
+genr loreff=lor/ltotr
+genr gpos=wpos+lpos
